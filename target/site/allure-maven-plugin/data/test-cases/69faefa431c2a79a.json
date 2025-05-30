@@ -1,0 +1,90 @@
+{
+  "uid" : "69faefa431c2a79a",
+  "name" : "successfulLoginWithValidCredentials",
+  "fullName" : "UserLoginTests.successfulLoginWithValidCredentials",
+  "historyId" : "67d8b8a176c4782257f4f8fada95482f",
+  "time" : {
+    "start" : 1748626304469,
+    "stop" : 1748626306042,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Настройка базовой конфигурации",
+      "time" : {
+        "start" : 1748626304470,
+        "stop" : 1748626304470,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLoginWithValidCredentials"
+  }, {
+    "name" : "suite",
+    "value" : "UserLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-m.local"
+  }, {
+    "name" : "thread",
+    "value" : "84759@MacBook-Pro-m.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Успешный вход с валидными данными"
+  }, {
+    "name" : "feature",
+    "value" : "Аутентификация пользователя"
+  }, {
+    "name" : "epic",
+    "value" : "API тесты для Stellar Burgers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69faefa431c2a79a.json",
+  "parameterValues" : [ ]
+}

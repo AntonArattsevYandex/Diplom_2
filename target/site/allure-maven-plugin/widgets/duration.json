@@ -1,0 +1,141 @@
+[ {
+  "uid" : "d418de12e1d5fc55",
+  "name" : "registerNewUserSuccessfully",
+  "time" : {
+    "start" : 1748626323372,
+    "stop" : 1748626324538,
+    "duration" : 1166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd10abe5eac1f6f",
+  "name" : "updateUserProfileWithAuth",
+  "time" : {
+    "start" : 1748626312702,
+    "stop" : 1748626315369,
+    "duration" : 2667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4a7eb2c6e39d89a",
+  "name" : "createOrderWithAuth",
+  "time" : {
+    "start" : 1748626315376,
+    "stop" : 1748626319482,
+    "duration" : 4106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbe71b366c963176",
+  "name" : "createOrderWithInvalidIngredients",
+  "time" : {
+    "start" : 1748626320739,
+    "stop" : 1748626321858,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "294d49bcdafe825b",
+  "name" : "registerUserWithoutPassword",
+  "time" : {
+    "start" : 1748626323247,
+    "stop" : 1748626323370,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3d38bd74e2bc880",
+  "name" : "registerDuplicateUser",
+  "time" : {
+    "start" : 1748626321863,
+    "stop" : 1748626323243,
+    "duration" : 1380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6362d7b437c9b51e",
+  "name" : "getOrdersWithValidAuth",
+  "time" : {
+    "start" : 1748626306304,
+    "stop" : 1748626311419,
+    "duration" : 5115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf6dbc40b30d888d",
+  "name" : "createEmptyOrder",
+  "time" : {
+    "start" : 1748626319619,
+    "stop" : 1748626320738,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f15560f6ce21c1b9",
+  "name" : "loginAttemptWithoutPassword",
+  "time" : {
+    "start" : 1748626302411,
+    "stop" : 1748626304427,
+    "duration" : 2016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "515e1f1786402329",
+  "name" : "updateUserProfileWithoutAuth",
+  "time" : {
+    "start" : 1748626311426,
+    "stop" : 1748626312698,
+    "duration" : 1272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69faefa431c2a79a",
+  "name" : "successfulLoginWithValidCredentials",
+  "time" : {
+    "start" : 1748626304469,
+    "stop" : 1748626306042,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46d327c1bdb79b64",
+  "name" : "createOrderWithoutAuth",
+  "time" : {
+    "start" : 1748626319488,
+    "stop" : 1748626319615,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36150bfab52d1fa6",
+  "name" : "getOrdersWithoutAuth",
+  "time" : {
+    "start" : 1748626306188,
+    "stop" : 1748626306302,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9199edb60239f9fd",
+  "name" : "loginAttemptWithInvalidCredentials",
+  "time" : {
+    "start" : 1748626306049,
+    "stop" : 1748626306184,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

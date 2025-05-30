@@ -1,0 +1,90 @@
+{
+  "uid" : "cbe71b366c963176",
+  "name" : "createOrderWithInvalidIngredients",
+  "fullName" : "OrderTests.createOrderWithInvalidIngredients",
+  "historyId" : "1cfa49ddd7f288967a893a750da8c08d",
+  "time" : {
+    "start" : 1748626320739,
+    "stop" : 1748626321858,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Настройка базовой конфигурации",
+      "time" : {
+        "start" : 1748626320740,
+        "stop" : 1748626320740,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithInvalidIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "OrderTests"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-m.local"
+  }, {
+    "name" : "thread",
+    "value" : "84759@MacBook-Pro-m.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Создание заказа с невалидными ингредиентами"
+  }, {
+    "name" : "feature",
+    "value" : "Работа с заказами"
+  }, {
+    "name" : "epic",
+    "value" : "API тесты для Stellar Burgers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbe71b366c963176.json",
+  "parameterValues" : [ ]
+}

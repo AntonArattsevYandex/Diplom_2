@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OrderTests" time="6.481" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/m/Diplom/Diplom_2/target/test-classes:/Users/m/Diplom/Diplom_2/target/classes:/Users/m/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/m/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/m/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/m/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/m/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/m/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/m/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/m/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/m/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/m/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/m/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/m/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/m/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/m/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/m/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/m/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/m/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/m/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/m/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/m/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/m/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-rest-assured/2.15.0/allure-rest-assured-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-attachments/2.15.0/allure-attachments-2.15.0.jar:/Users/m/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/m/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Applications/Android Studio.app/Contents/jbr/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/m/Diplom/Diplom_2/target/surefire/surefirebooter9975591245410081587.jar /Users/m/Diplom/Diplom_2/target/surefire 2025-05-30T20-31-41_854-jvmRun1 surefire15888225278411880088tmp surefire_07182330519827052982tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/m/Diplom/Diplom_2/target/test-classes:/Users/m/Diplom/Diplom_2/target/classes:/Users/m/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/m/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/m/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/m/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/m/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/m/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/m/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/m/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/m/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/m/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/m/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/m/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/m/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/m/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/m/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/m/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/m/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/m/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/m/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/m/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/m/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/m/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-rest-assured/2.15.0/allure-rest-assured-2.15.0.jar:/Users/m/.m2/repository/io/qameta/allure/allure-attachments/2.15.0/allure-attachments-2.15.0.jar:/Users/m/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/m/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="allure.results.directory" value="/Users/m/Diplom/Diplom_2/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/m"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Applications/Android Studio.app/Contents/jbr/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/m/Diplom/Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="jbr.virtualization.information" value="No virtualization detected"/>
+    <property name="surefire.real.class.path" value="/Users/m/Diplom/Diplom_2/target/surefire/surefirebooter9975591245410081587.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.9+0-17.0.9b1087.7-11185874"/>
+    <property name="user.name" value="m"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/m/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/j_/8b51cg3j1d30xdjx05nqgtwc0000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/m/Diplom/Diplom_2"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/m/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="17.0.9+0-17.0.9b1087.7-11185874"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createOrderWithAuth" classname="OrderTests" time="4.104"/>
+  <testcase name="createOrderWithoutAuth" classname="OrderTests" time="0.131"/>
+  <testcase name="createEmptyOrder" classname="OrderTests" time="1.121"/>
+  <testcase name="createOrderWithInvalidIngredients" classname="OrderTests" time="1.12"/>
+</testsuite>
